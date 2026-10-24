@@ -1,0 +1,50 @@
+{
+  "train_split_name": "train_mini_10min",
+  "use_mini_evaluation": true,
+  "best_epoch": 8,
+  "best_validation_loss": 2.0255750062942504,
+  "best_validation_accuracy": 0.5056,
+  "test_accuracy": 0.512,
+  "num_train_samples": 60000,
+  "num_validation_samples": 5000,
+  "num_test_samples": 5000,
+  "num_feat": 32,
+  "num_classes": 44,
+  "num_hidden": 50,
+  "learning_rate": 0.001,
+  "epochs": 8,
+  "batch_size_train": 256,
+  "batch_size_eval": 256,
+  "history": {
+    "train_loss": [
+      3.030465114847819,
+      2.2290748533884686,
+      2.1443493366241455,
+      2.100786760075887,
+      2.0675062292734783,
+      2.0395341649373373,
+      2.0140125151316326,
+      1.9926869913101197
+    ],
+    "validation_loss": [
+      2.3448457744598388,
+      2.1828659984588623,
+      2.132656935882568,
+      2.1003883644104,
+      2.0773851497650146,
+      2.0567063892364503,
+      2.0408444095611573,
+      2.0255750062942504
+    ],
+    "validation_accuracy": [
+      0.4582,
+      0.4776,
+      0.4822,
+      0.4858,
+      0.4922,
+      0.4968,
+      0.5014,
+      0.5056
+    ]
+  }
+}
