@@ -1,0 +1,67 @@
+{
+  "train_site": "A",
+  "train_site_name": "Kiel",
+  "validation_site": "A",
+  "validation_site_name": "Kiel",
+  "best_epoch": 8,
+  "best_validation_loss": 1.5333371393446162,
+  "best_validation_accuracy": 0.5888268312046464,
+  "site_test_results": {
+    "A": {
+      "test_site_name": "Kiel",
+      "test_accuracy": 0.5579022723074081,
+      "num_test_samples": 216520
+    },
+    "N": {
+      "test_site_name": "Bonn",
+      "test_accuracy": 0.5469792555727202,
+      "num_test_samples": 610429
+    },
+    "D": {
+      "test_site_name": "Munich",
+      "test_accuracy": 0.5975215193118005,
+      "num_test_samples": 382331
+    }
+  },
+  "num_train_samples": 1319069,
+  "num_validation_samples": 215391,
+  "num_feat": 32,
+  "num_classes": 44,
+  "num_hidden": 50,
+  "learning_rate": 0.001,
+  "epochs": 8,
+  "batch_size_train": 256,
+  "batch_size_eval": 256,
+  "history": {
+    "train_loss": [
+      2.002105965458218,
+      1.76372404013854,
+      1.697241866492498,
+      1.6551727094956448,
+      1.6222316520627482,
+      1.5946892798415744,
+      1.5711067663874505,
+      1.5506429821981575
+    ],
+    "validation_loss": [
+      1.813193789081499,
+      1.7172872618883823,
+      1.6646796560570956,
+      1.6286687638356132,
+      1.6013027164901763,
+      1.5735130078874782,
+      1.553858756333312,
+      1.5333371393446162
+    ],
+    "validation_accuracy": [
+      0.5385461788096996,
+      0.5555663885677674,
+      0.5643272003008483,
+      0.5697313258214132,
+      0.5765282671977938,
+      0.5817141849009476,
+      0.5851683682233705,
+      0.5888268312046464
+    ]
+  }
+}
